@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "compuse"
+version = "0.1.0"
+description = ""
+authors = ["Louka Ewington-Pitsos <lewingtonpitsos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+scrapegraphai = "^1.30.0"
+openai = "^1.54.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
